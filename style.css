@@ -31,3 +31,8 @@ Use it to make something cool, have fun, and share what you've learned with othe
     border-bottom: 3px solid #333;
     padding-bottom: 10px;
 }
+
+.custom-logo-link img {
+    max-height: 100px;
+    width: auto;
+}

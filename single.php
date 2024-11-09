@@ -10,7 +10,7 @@ get_header();
 ?>
 
 	<div class="content">
-		<?php esc_html_e( 'Content index', 'rianx' ) ?>
+		<?php esc_html_e( 'Singlepost', 'rianx' ) ?>
 	</div>
 
 <?php

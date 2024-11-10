@@ -51,6 +51,9 @@
         //? Features image on posts 
         add_theme_support( 'post-thumbnails' );
 
+        // Register image sizes.
+        add_image_size( 'featured-thumbnail', 350, 233, true );
+
         add_theme_support( 'custom-selective-refresh-widgets' );
 
         add_theme_support( 'automatic-feed-links' );

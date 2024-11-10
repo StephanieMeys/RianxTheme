@@ -36,3 +36,8 @@ Use it to make something cool, have fun, and share what you've learned with othe
     max-height: 100px;
     width: auto;
 }
+
+img {
+    width: 100%;
+    height: auto;
+}

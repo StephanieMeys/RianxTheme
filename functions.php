@@ -14,6 +14,7 @@ if ( ! defined( 'RIANX_DIR_URI' ) ){
     define( 'RIANX_DIR_URI', untrailingslashit( get_template_directory_uri() ) );
 }
 require_once RIANX_DIR_PATH . '/inc/helpers/autoloader.php';
+require_once RIANX_DIR_PATH . '/inc/helpers/template-tags.php';
 
 function rianx_get_theme_instance() {
     RIANX_THEME\Inc\RIANX_THEME::get_instance();
